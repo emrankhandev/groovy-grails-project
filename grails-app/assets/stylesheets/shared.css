@@ -1,0 +1,113 @@
+#spinner, #popup-modal {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 9999;
+    display: none;
+    text-align: center;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#popup-content {
+    margin-left: 1.1rem;
+    margin-top: 34vh;
+    min-height: 28vh;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #9d8789;
+    background-color: #fff0f0;
+    border-radius: 3rem !important;
+    box-shadow: 0px 0px 13px 2px rgb(255 111 111);
+}
+
+.astrik:before {
+    content: "*";
+    color: red;
+    font-size: 1.3rem;
+}
+
+.font-like-h2 {
+    font-weight: normal;
+    font-size: 1.25em;
+    margin: 0.8em 0 0.3em 0;
+    color: darkred;
+    margin-left: 1rem !important;
+}
+
+.no-select-by-cursor {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 1000px) {
+    .gradient-form {
+        height: 49.7rem !important;
+    }
+}
+
+@media (max-width: 1001px) and (min-width: 766px) {
+    .gradient-form {
+        height: 78rem !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .gradient-form {
+        height: 73.2rem !important;
+    }
+}
+
+@media (width: 768px) {
+    .gradient-form {
+        height: 78rem !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
+
+.padding-0-7 {
+    padding: 0.7rem !important;
+}
+
+.wrap {
+    overflow-wrap: break-word !important;
+}
+
+.circle-with-text {
+    background: linear-gradient(#495057, rgb(0 0 0 / 10%)) !important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100% !important;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    display: flex;
+    color: #fff;
+    width: 2rem !important;
+    height: 1vh !important;
+}

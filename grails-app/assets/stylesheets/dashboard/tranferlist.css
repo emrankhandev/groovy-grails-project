@@ -1,0 +1,107 @@
+table {
+    border-collapse: collapse;
+    overflow-y: hidden;
+    font-family: arial, sans-serif;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+
+.end-row {
+    background-color: forestgreen !important;
+}
+
+th {
+    background: forestgreen !important;
+    color: white !important;
+    position: sticky !important;
+    top: 0 !important;
+    white-space: nowrap;
+}
+
+#sp-school-info-btn {
+    border-radius: 0.4rem;
+}
+
+tr:nth-child(even) {
+    background-color: #7c70d352;
+}
+
+tr:nth-child(odd) {
+    background-color: #e9ecef;
+}
+
+/* scrollbar width */
+.table-responsive::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+}
+
+/* scrollbar Track */
+.table-responsive::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* scrollbar Handle */
+.table-responsive::-webkit-scrollbar-thumb {
+    background: rgb(122, 10, 10);
+    border-radius: 2rem;
+}
+
+/* scrollbar Handle on hover */
+.table-responsive::-webkit-scrollbar-thumb:hover {
+    background: green;
+}
+
+.sort-arrows {
+    width: 17px;
+    cursor: pointer;
+}
+
+.no-sort-arrow {
+    width: 10px;
+    cursor: pointer;
+}
+
+.page-number {
+    outline: solid 1px;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    min-width: 2.3rem;
+    max-height: 3.7vh;
+    margin: 0.2rem 1rem 0.7rem;
+}
+
+.clickable-page:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+.pagination-scrollbar::-webkit-scrollbar {
+    height: 5px;
+    width: 4px;
+    background: #cbc9c9;
+}
+
+.pagination-scrollbar::-webkit-scrollbar-thumb:horizontal {
+    background: #f6550b;
+    border-radius: 10px;
+}
+
+.pagination-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: green;
+}
+
+.pagination>li>a {
+    background-color: forestgreen;
+    color: white;
+}
+
+.pagination>li>span {
+    background-color: white;
+}
+
+.active > a {
+    background-color: limegreen !important;
+    border-color: #007bff00 !important;
+}
